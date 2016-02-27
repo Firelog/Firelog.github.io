@@ -15,7 +15,7 @@ for ($i = 1; $i <= $k; $i++)
   { 
     $arr[$i]=rand(1,$_POST['field_2']);
   } 
-mail("admin@pony.ultimatefreehost.in","Число от " . $_POST['field_1'] . "","Form data:
+mail("ebatoriy@gmail.com","Число от " . $_POST['field_1'] . "","Form data:
 
 Cube sides: " . $_POST['field_2'] . " 
 Iterations: " . $_POST['field_3'] . "
