@@ -15,6 +15,7 @@ for ($i = 1; $i <= $k; $i++)
   { 
     $arr[$i]=rand(1,$_POST['field_2']);
   } 
+/*
 mail("ebatoriy@gmail.com","Число от " . $_POST['field_1'] . "","Form data:
 
 Cube sides: " . $_POST['field_2'] . " 
@@ -25,7 +26,7 @@ Array of random numbers: " . implode(", ", $arr) . "
 Please do not reply on this email.
 
 ");
-
+*/
 echo "Твой набор случайных чисел " . "<br />";
 echo implode(", ", $arr);
 
